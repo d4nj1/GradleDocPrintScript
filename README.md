@@ -1,8 +1,8 @@
 GradleDocPrintScript
 ====================
 
-Shell script to convert Gradle PDF to use printer friendly colors.
-Script uses "pdftk" and "mimetype" command so be shure you have them installed on your system.
+Shell script to convert code listing colors in Gradle PDF to be printer friendly.
+Script uses "pdftk" and "mimetype" command. Be shure you have them installed on your system.
 Written and tested with version 2.0 of the Gradle user guide.
 
 Steps to do:
