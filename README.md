@@ -18,12 +18,12 @@ Steps to do:
 
 Original code style:
 
-![original style screenshot](https://github.com/d4nj1/GradleDocPrintScript/blob/master/originalStyle.png)
+![original style screenshot](https://raw.githubusercontent.com/d4nj1/GradleDocPrintScript/master/originalStyle.png)
 
 Java code style: (default)
 
-![java style screenshot](https://github.com/d4nj1/GradleDocPrintScript/blob/master/javaCodeStyle.png)
+![java style screenshot](https://raw.githubusercontent.com/d4nj1/GradleDocPrintScript/master/javaCodeStyle.png)
 
 Groovy code style: (changeable in script)
 
-![groovy style screenshot](https://github.com/d4nj1/GradleDocPrintScript/blob/master/groovyCodeStyle.png)
+![groovy style screenshot](https://raw.githubusercontent.com/d4nj1/GradleDocPrintScript/master/groovyCodeStyle.png)
