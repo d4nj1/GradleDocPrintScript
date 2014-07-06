@@ -15,3 +15,15 @@ Steps to do:
 ```./gradleDocColors.sh userguide.pdf```
 5. The script will then uncompress the pdf, change it's colors and then compresses it again
 6. New document is named as the original but with prefix "print-"
+
+Original code style:
+
+![original style screenshot](https://github.com/d4nj1/GradleDocPrintScript/blob/master/originalStyle.png)
+
+Java code style: (default)
+
+![java style screenshot](https://github.com/d4nj1/GradleDocPrintScript/blob/master/javaCodeStyle.png)
+
+Groovy code style: (changeable in script)
+
+![groovy style screenshot](https://github.com/d4nj1/GradleDocPrintScript/blob/master/groovyCodeStyle.png)
