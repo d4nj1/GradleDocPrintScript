@@ -25,11 +25,6 @@ printfile="print-$1"
 
 pdftk $1 cat output $tempfile uncompress
 
-# change common colors here
-#
-# TOC text from green tp darkblue
-sed -i 's/0 0.43922 0.25882 rg/0 0 0.55 rg/g' $tempfile
-
 # change code colors here
 #
 # background
@@ -49,6 +44,10 @@ sed -i 's/0.86667 0.76863 0.59608 rg/0.55 0 0.55 rg/g' $tempfile
 # comments
 # lightgrey to darkgreen
 sed -i 's/0.68627 0.68627 0.68627 rg/0 0.39 0 rg/g' $tempfile
+
+# annotations
+# lightgrey to midgrey
+sed -i 's/0.86667 0.86667 0.59216 rg/0.4 0.4 0.4 rg/g' $tempfile
 
 # general text
 # white to black
